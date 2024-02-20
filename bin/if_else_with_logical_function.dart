@@ -1,5 +1,5 @@
 main() {
-  int mark = -110;
+  int mark = 50;
   if (mark >= 80 && mark <= 100) {
     print('A+');
   } else if (mark >= 75 && mark < 80) {
@@ -23,5 +23,11 @@ main() {
   }
   else {
     print('Invalid Input');
+  }
+
+  if (mark == 100 || mark == 50){
+    print('This Mark is Divisible by 50');
+  } else {
+    print('Not Divisible');
   }
 }
