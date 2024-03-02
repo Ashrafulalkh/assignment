@@ -23,6 +23,15 @@ class Student extends Human {
   void reading() {
     print('Reading');
   }
+  @override
+  void eating() {
+    print('Eating politely');
+  }
+  @override
+  void moving() {
+    super.moving();
+    print('fastly for class');
+  }
 }
 
 void main() {
