@@ -43,6 +43,24 @@ class English extends Student {
   }
 }
 
+class Eee implements Student {
+  @override
+  void classJoining() {
+    // TODO: implement classJoining
+  }
+
+  @override
+  void reading() {
+    // TODO: implement reading
+  }
+
+  @override
+  void talking() {
+    // TODO: implement talking
+  }
+
+}
+
 void main() {
   CSEStudent cseStudentOne = CSEStudent();
   cseStudentOne.reading();
@@ -51,6 +69,7 @@ void main() {
   Biology biologyOne = Biology();
   biologyOne.reading();
   biologyOne.classJoining();
+  biologyOne.talking();
 
   English englishOne = English();
   englishOne.reading();
